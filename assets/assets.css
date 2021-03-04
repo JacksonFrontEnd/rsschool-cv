@@ -1,0 +1,172 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+:before,:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.education {
+padding: 20px 40px 30px 40px;
+}
+.suptitle {
+text-transform: uppercase;
+font-size: 20px;
+position: relative;
+font-size: 20px;
+font-weight: bold;
+border-bottom: 3px solid gray;
+padding:5px;
+}
+.suptitle::before{
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  bottom: -3px;
+  left:0;
+  z-index: 1;
+  background-color: dodgerblue;
+}
+.education_flex{
+  display: flex;
+  padding-top: 20px;
+}
+.education__year {
+padding-right: 25px;
+}
+.education_name {
+  padding-right: 25px;
+width: 350px;
+}
+.skills_language {
+  padding: 20px 40px 30px 40px; 
+}
+.skills_language_flex{
+ display: flex; 
+ justify-content: space-between;
+ padding-top: 20px;
+}
+.skills li{
+margin-bottom: 10px;
+}
+.skills li:last-child{
+  margin-bottom: 0;
+}
+.language li {
+  margin-bottom: 10px;
+}
+.language li:last-child{
+  margin-bottom: 0;
+}
+.photo {
+  padding-bottom: 30px;
+}
+.name {
+  padding-left:20px;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.name__subtitle {
+  font-weight: bold;
+}
+
+.profile {
+  padding: 20px 40px 30px 40px; 
+}
+
+.profile__text {
+  padding-top:20px;
+  width: 450px;
+}
+.contact {
+  padding: 50px 40px;
+  padding-left:20px;
+  font-size: 14px;
+}
+.contact__suptitle {
+  text-transform: uppercase;
+  position: relative;
+  font-size: 20px;
+  color: dodgerblue;
+  font-weight: bold;
+  border-bottom: 3px solid gray;
+  padding:5px;
+}
+.contact__suptitle::before{
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  bottom: -3px;
+  left:0;
+  z-index: 1;
+  background-color: dodgerblue;
+}
+.contact__location {
+  padding-top: 30px;
+
+}
+.contact__phones {
+padding: 20px 0;
+}
+.container {
+	display: flex;
+  max-width: 900px;
+	margin: 0 auto;
+}
+.social-media {
+  padding: 20px 40px 200px 40px; 
+}
+.social-media__ul {
+  padding-top: 20px;
+}
+.social-media__ul li{
+  padding-bottom: 10px;
+}
+.social-media__ul li:last-child{
+  padding-bottom: 0;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  transition: .9s;
+  color: yellow;
+}
+.side {
+	max-width: 300px;
+  background-color: rgb(36, 34, 34);
+  color: white;
+}
+
+.main {
+	max-width: 600px;
+  padding-left: 50px;
+  background-color: lightgray;
+}
+.mail_link{
+  text-decoration: none;
+  color: white;
+}
+.mail_link:hover{
+  transition: .9s;
+  color: yellow;
+}
