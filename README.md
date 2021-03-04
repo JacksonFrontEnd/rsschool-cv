@@ -1,1 +1,1 @@
-# https://JacksonFrontEnd.github.io/rsschool-cv/index.html
+# https://JacksonFrontEnd.github.io/rsschool-cv/
